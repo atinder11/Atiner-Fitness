@@ -1,0 +1,140 @@
+.left {
+
+    
+    display: inline-block;
+
+    position: absolute;
+    left: 50px;
+    top:-4px;
+}
+
+
+.right {
+    position: absolute;
+    right: 3px;
+    top: 40px;
+    display: inline-block;
+
+    
+}
+
+.mid {
+   
+    display: block;
+    width: 60%;
+
+    margin: 26px auto;
+
+
+}
+
+.navbar {
+    display: inline-block;
+
+
+}
+
+.navbar li {
+
+    display: inline-block;
+    font-size: 28px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+
+}
+
+.left img {
+    width: 130px;
+    filter: invert(100%);
+}
+
+.left div {
+    line-height: 0px;
+    font-size: 25px;
+    text-align: center;}
+
+
+.btn {
+    font-family: 'Xanh Mono', monospace;
+    
+    margin: 0px 9px;
+    background-color:#222020;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    
+    background-color: rgba(99, 89, 89, 0.466);
+}
+
+.form-group input {
+    font-family: 'Xanh Mono', monospace;
+    text-align: center;
+    display: block;
+    width:380px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 23px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
+.container {
+    border:1px solid white;
+    margin:160px 87px;
+    padding:20px;
+    width: 40%;
+    border-radius: 28px;
+}
+footer{
+    color:white;
+    font-style: normal;
+
+    display:block;
+    text-align: center;
+    font-size: larger;
+    text-decoration: none;
+    
+
+
+}
+footer a{
+    color:white;
+    
+}
+footer a:hover{
+    text-decoration: underline;
+    color: grey;
+
+}
+footer a.redt:hover{
+    text-decoration: solid;
+    color:red;
+
+
+}
